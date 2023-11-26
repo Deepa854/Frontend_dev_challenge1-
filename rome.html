@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rome - TravelBae</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+    <!-- Left side: Brand -->
+    <a class="navbar-brand" href="#">Travel Bea</a>
+
+    <!-- Right side: Navigation Links -->
+    <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="destinations.html">Destinations</a>
+        <a class="nav-link" href="report.html">Report</a>
+    </div>
+</nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Rome</h1>
+    </header>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/grey (3).svg" class="img-fluid" alt="Rome">
+            </div>
+            <div class="col-md-6">
+                <h2>About Rome</h2>
+                <p>
+                    Rome, the capital of Italy, is a city with a rich history that spans
+                    over two and a half thousand years. Explore ancient ruins, magnificent
+                    art, and delicious Italian cuisine in the heart of Rome.
+                </p>
+                <h3>Highlights:</h3>
+                <ul>
+                    <li>The Colosseum and Roman Forum</li>
+                    <li>The Vatican City and St. Peter's Basilica</li>
+                    <li>Trevi Fountain and Spanish Steps</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar (footer) -->
+
+     <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-text mx-auto">
+            <p class="mb-0">© <span id="currentYear"></span> TravelBae. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS dependencies -->
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('currentYear').innerText = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tokyo - TravelBae</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+    <!-- Left side: Brand -->
+    <a class="navbar-brand" href="#">Travel Bea</a>
+
+    <!-- Right side: Navigation Links -->
+    <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="destinations.html">Destinations</a>
+        <a class="nav-link" href="report.html">Report</a>
+    </div>
+</nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Tokyo</h1>
+    </header>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/grey (1).svg" class="img-fluid" alt="Tokyo">
+            </div>
+            <div class="col-md-6">
+                <h2>About Tokyo</h2>
+                <p>
+                    Tokyo, the capital of Japan, is a vibrant metropolis that seamlessly
+                    blends modern technology with traditional culture. Explore the bustling
+                    streets, high-tech attractions, and historic temples.
+                </p>
+                <h3>Highlights:</h3>
+                <ul>
+                    <li>Shibuya Crossing and Harajuku District</li>
+                    <li>Tokyo Tower and Skytree</li>
+                    <li>Traditional Meiji Shrine</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar (footer) -->
+    
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-text mx-auto">
+            <p class="mb-0">© <span id="currentYear"></span> TravelBae. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS dependencies -->
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('currentYear').innerText = new Date().getFullYear();
+    </script>
+
+
+</body>
+</html>

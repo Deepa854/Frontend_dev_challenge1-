@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Explore Our Destinations - TravelBae</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+    <!-- Left side: Brand -->
+    <a class="navbar-brand" href="#">Travel Bea</a>
+
+    <!-- Right side: Navigation Links -->
+    <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="destinations.html">Destinations</a>
+        <a class="nav-link" href="report.html">Report</a>
+    </div>
+</nav>
+
+
+    <!-- Header Section -->
+    <header>
+        <h1>Explore Our Destinations</h1>
+    </header>
+
+    <!-- Destination Cards Section -->
+    <div class="container">
+        <div class="row">
+            <!-- Italy Card -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/grey.svg" class="card-img-top" alt="Italy">
+                    <div class="card-body">
+                        <h5 class="card-title">Italy</h5>
+                        <p class="card-text">Discover the beauty of Italy.</p>
+                        <a href="italy.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tokyo Card  -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/grey (1).svg" class="card-img-top" alt="Tokyo">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo</h5>
+                        <p class="card-text"> Culture of Tokyo</p>
+                        <a href="tokyo.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bali Card -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/grey (2).svg" class="card-img-top" alt="Bali">
+                    <div class="card-body">
+                        <h5 class="card-title">Bali</h5>
+                        <p class="card-text">Escape to the paradise of Bali.</p>
+                        <a href="bali.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rome Card -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/grey (3).svg" class="card-img-top" alt="Rome">
+                    <div class="card-body">
+                        <h5 class="card-title">Rome</h5>
+                        <p class="card-text">Explore the history of Rome.</p>
+                        <a href="rome.html" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-text mx-auto">
+            <p class="mb-0">© <span id="currentYear"></span> TravelBae. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS dependencies -->
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('currentYear').innerText = new Date().getFullYear();
+    </script>
+
+
+</body>
+</html>

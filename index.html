@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TravelBae - Explore Exciting Destinations</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+    <!-- Left side: Brand -->
+    <a class="navbar-brand" href="#">Travel Bea</a>
+
+    <!-- Right side: Navigation Links -->
+    <div class="navbar-nav">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="destinations.html">Destinations</a>
+        <a class="nav-link" href="report.html">Report</a>
+    </div>
+</nav>
+  
+   
+    <!-- Header Section -->
+    <header>
+        <h1>TravelBae</h1>
+        <p>Explore Exciting Destinations with Us!</p>
+    </header>
+
+    <!-- Call-to-Action Button -->
+    <div class="text-center">
+    <a href="destinations.html" class="btn btn-primary">View Destinations</a>
+  </div>
+
+    
+    <footer class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="navbar-text mx-auto">
+          <p class="mb-0">© <span id="currentYear"></span> TravelBae. All rights reserved.</p>
+      </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.getElementById('currentYear').innerText = new Date().getFullYear();
+   </script>
+  
+    
+</body>
+</html>
